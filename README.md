@@ -19,9 +19,11 @@ Make sure you have the following installed on your system:
 
 ### Step 1: Clone the Repository
 
-### Step 2: Build and Run the Docker Containers
+### Step 2:run APP with: uvicorn main:app --reload
+
+### Step 4: Build and Run the Docker Containers
 
 With this command: docker-compose up --build -d
 
-### Step 3: Access the API
+### Step 5: Access the API
 The FastAPI application will be available at http://localhost:8000.
