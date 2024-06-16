@@ -23,7 +23,8 @@ Make sure you have the following installed on your system:
 
 ### Step 4: Build and Run the Docker Containers
 
-With this command: docker-compose up --build -d
+- First Change in database.py the client: replace localhost with mongodb, the final row is client = MongoClient("mongodb://mongodb:27017/")
+- Second Build and Run the Docker Containers with this command: docker-compose up --build -d
 
 ### Step 5: Access the API
 The FastAPI application will be available at http://localhost:8000.
